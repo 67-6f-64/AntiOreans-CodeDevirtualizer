@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{86A1743E-9E1C-49B5-AF6E-0F3F7CAB4CC4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>CodeDevirtualizer</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetExt>.dll</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;__NT__;__IDP__;_CRT_SECURE_NO_WARNINGS;USE_DANGEROUS_FUNCTIONS;USE_STANDARD_FILE_FUNCTIONS;CREATE_VM_DUMPS;PRINT_DEBUG_INFO;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Benny\Desktop\AntiOreans\x86_disassembler;G:\Setups &amp; Cracks\IDA\IDA Pro 6.8 SDK\idasdk68\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <CallingConvention>StdCall</CallingConvention>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>G:\Setups &amp; Cracks\IDA\IDA Pro 6.8 SDK\idasdk68\lib\x86_win_vc_32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>ida.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalOptions>/EXPORT:PLUGIN %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy /Y "$(TargetDir)$(ProjectName).dll" "D:\Programs\IDA Pro 6.8 + Hex-Rays Decompiler (ARM, x64, x86)\plugins\CodeDevirtualizer.plw"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cisc.cpp" />
+    <ClCompile Include="dolphin.cpp" />
+    <ClCompile Include="dolphin_handler.cpp" />
+    <ClCompile Include="eagle.cpp" />
+    <ClCompile Include="fish.cpp" />
+    <ClCompile Include="fish_context.cpp" />
+    <ClCompile Include="fish_handler.cpp" />
+    <ClCompile Include="instruction_container_branch_evaluator.cpp" />
+    <ClCompile Include="instruction_container.cpp" />
+    <ClCompile Include="instruction_container_base.cpp" />
+    <ClCompile Include="instruction_container_deobfuscator.cpp" />
+    <ClCompile Include="instruction_emulator.cpp" />
+    <ClCompile Include="libudis86\decode.c" />
+    <ClCompile Include="libudis86\itab.c" />
+    <ClCompile Include="libudis86\syn-att.c" />
+    <ClCompile Include="libudis86\syn-intel.c" />
+    <ClCompile Include="libudis86\syn.c" />
+    <ClCompile Include="libudis86\udis86.c" />
+    <ClCompile Include="oreans_entry.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="oreans_base.cpp" />
+    <ClCompile Include="puma.cpp" />
+    <ClCompile Include="risc.cpp" />
+    <ClCompile Include="segment_copy.cpp" />
+    <ClCompile Include="segment_manager.cpp" />
+    <ClCompile Include="shark.cpp" />
+    <ClCompile Include="tiger.cpp" />
+    <ClCompile Include="tiger_context.cpp" />
+    <ClCompile Include="tiger_handler.cpp" />
+    <ClCompile Include="ud_instruction.cpp" />
+    <ClCompile Include="wild_base.cpp" />
+    <ClCompile Include="wild_context.cpp" />
+    <ClCompile Include="wild_context_keys.cpp" />
+    <ClCompile Include="wild_handler.cpp" />
+    <ClCompile Include="wild_handler_flow.cpp" />
+    <ClCompile Include="wild_handler_key.cpp" />
+    <ClCompile Include="wild_handler_parser.cpp" />
+    <ClCompile Include="wild_handler_tracer.cpp" />
+    <ClCompile Include="wild_hybrid_base.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cisc.hpp" />
+    <ClInclude Include="dolphin.hpp" />
+    <ClInclude Include="dolphin_handler.hpp" />
+    <ClInclude Include="eagle.hpp" />
+    <ClInclude Include="fish.hpp" />
+    <ClInclude Include="fish_context.hpp" />
+    <ClInclude Include="fish_handler.hpp" />
+    <ClInclude Include="fish_handler_mnemonics.hpp" />
+    <ClInclude Include="fish_handler_types.hpp" />
+    <ClInclude Include="instruction_container_branch_evaluator.hpp" />
+    <ClInclude Include="instruction_container.hpp" />
+    <ClInclude Include="instruction_container_base.hpp" />
+    <ClInclude Include="instruction_container_deobfuscator.hpp" />
+    <ClInclude Include="instruction_emulator.hpp" />
+    <ClInclude Include="libudis86\decode.h" />
+    <ClInclude Include="libudis86\extern.h" />
+    <ClInclude Include="libudis86\itab.h" />
+    <ClInclude Include="libudis86\syn.h" />
+    <ClInclude Include="libudis86\types.h" />
+    <ClInclude Include="libudis86\udint.h" />
+    <ClInclude Include="oreans_entry.hpp" />
+    <ClInclude Include="oreans_base.hpp" />
+    <ClInclude Include="puma.hpp" />
+    <ClInclude Include="risc.hpp" />
+    <ClInclude Include="segment_copy.hpp" />
+    <ClInclude Include="segment_manager.hpp" />
+    <ClInclude Include="shark.hpp" />
+    <ClInclude Include="tiger.hpp" />
+    <ClInclude Include="tiger_context.hpp" />
+    <ClInclude Include="tiger_handler.hpp" />
+    <ClInclude Include="tiger_handler_types.hpp" />
+    <ClInclude Include="udis86.h" />
+    <ClInclude Include="ud_instruction.hpp" />
+    <ClInclude Include="wild.hpp" />
+    <ClInclude Include="wild_base.hpp" />
+    <ClInclude Include="wild_context.hpp" />
+    <ClInclude Include="wild_context_keys.hpp" />
+    <ClInclude Include="wild_handler.hpp" />
+    <ClInclude Include="wild_handler_flow.hpp" />
+    <ClInclude Include="wild_handler_key.hpp" />
+    <ClInclude Include="wild_handler_mnemonics.hpp" />
+    <ClInclude Include="wild_handler_parser.hpp" />
+    <ClInclude Include="wild_handler_tracer.hpp" />
+    <ClInclude Include="wild_handler_types.hpp" />
+    <ClInclude Include="wild_hybrid_base.hpp" />
+    <ClInclude Include="wild_opcode_label.hpp" />
+    <ClInclude Include="wild_opcode_label_manager.hpp" />
+    <ClInclude Include="wild_opcode_reader.hpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

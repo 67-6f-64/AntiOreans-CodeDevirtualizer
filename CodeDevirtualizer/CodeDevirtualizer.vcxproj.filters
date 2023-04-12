@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="oreans">
+      <UniqueIdentifier>{ccbdd0e8-7b39-4e98-bd7e-c0ec6bfaa520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="oreans\base">
+      <UniqueIdentifier>{88529c20-13a2-48f1-b332-18ab2bc3a868}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines">
+      <UniqueIdentifier>{96162005-8930-436c-b51b-53f9da46c978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\1 - CISC">
+      <UniqueIdentifier>{0eee6327-d332-46e8-a83e-06fedd676094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="oreans\entry">
+      <UniqueIdentifier>{cf57360b-be1e-4f5c-8ed6-c586f51e0532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD">
+      <UniqueIdentifier>{8b5051aa-7c08-4aba-a9b4-3cb0795ef7aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base">
+      <UniqueIdentifier>{336e7a7d-cc0e-4d2e-9b43-da73d81b8f2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.2 - TIGER">
+      <UniqueIdentifier>{6e629306-2d57-43c5-ac77-e382410abe6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base\base">
+      <UniqueIdentifier>{34ff88c5-61d5-484b-bb8f-169b4dd664fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.1 - FISH">
+      <UniqueIdentifier>{37c59d3a-98b2-4ab6-a198-fe9ea3457317}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{992c0cce-f08e-42a4-aef5-456afec38d3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction">
+      <UniqueIdentifier>{ec111021-e1dc-4752-a110-34a10b6c5b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction\container">
+      <UniqueIdentifier>{4d221023-bde9-4aea-8bc4-a75b5b0e286a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction\container\deobfuscator">
+      <UniqueIdentifier>{d39631e3-7a76-4c67-9808-9b4ac04ef3c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction\container\base">
+      <UniqueIdentifier>{9861a229-1164-4079-a6d8-aeda5b85d714}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction\base">
+      <UniqueIdentifier>{ed274bbc-6b21-489a-bde7-4d62dcb20d7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction\emulator">
+      <UniqueIdentifier>{e3ab9fc5-5430-44bc-a8c6-3fa45415d6c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.3 - DOLPHIN">
+      <UniqueIdentifier>{b63f0cb2-08d8-4bb4-9a62-6452b4fa671d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction\libudis86">
+      <UniqueIdentifier>{62403e40-658e-4ac2-b490-a953a488c1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction\libudis86\internal">
+      <UniqueIdentifier>{3aca0ef1-bfda-4170-9a0a-7f5c46f7dce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction\libudis86\syntax">
+      <UniqueIdentifier>{190230a5-da9c-41c9-8291-c7bd7d07fc0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction\libudis86\table">
+      <UniqueIdentifier>{02003399-9a54-4bbb-b18a-3b32fcf5915b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction\libudis86\decode">
+      <UniqueIdentifier>{56731608-05c5-4ab5-95c4-5d9661d68c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="instruction\container\branches">
+      <UniqueIdentifier>{8643c7f3-5766-43f1-b228-f4598c0e73f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\4 - WILD Hybrids">
+      <UniqueIdentifier>{3535e7a6-4b2f-4809-8973-777a130119b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\4 - WILD Hybrids\4.0 - base">
+      <UniqueIdentifier>{38c40d97-fc79-4e72-bf24-3a7a8113a059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\4 - WILD Hybrids\4.1 - PUMA">
+      <UniqueIdentifier>{34e482c3-9a98-4112-b9cc-6de436f472f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\4 - WILD Hybrids\4.2 - SHARK">
+      <UniqueIdentifier>{b219a137-6783-427f-9bfb-90be3079f639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\4 - WILD Hybrids\4.3 - EAGLE">
+      <UniqueIdentifier>{4ae44409-b23b-436f-996f-20119dcf1240}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\2 - RISC">
+      <UniqueIdentifier>{10c5689b-950a-4ba9-a8d2-e334365426ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base\context">
+      <UniqueIdentifier>{befc9465-35bc-418a-8b25-4db5acc66d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base\context\keys">
+      <UniqueIdentifier>{0f7f95a8-8b5d-40b8-b5ca-d064a263ba16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base\handler">
+      <UniqueIdentifier>{d8974c2e-2ca7-4f0d-bc34-0647a89bf750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base\handler\structure">
+      <UniqueIdentifier>{e3e60b36-7fa4-4638-a2b3-13901d167c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base\handler\flow">
+      <UniqueIdentifier>{344a9a4b-3734-4d5e-a8d3-1aef8be92f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="segment manager">
+      <UniqueIdentifier>{a22049d3-aadd-4299-a5a8-2d07191ac094}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="segment manager\segment copy">
+      <UniqueIdentifier>{ca23290b-d6fb-43bf-8647-f6460d4491e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.1 - FISH\context">
+      <UniqueIdentifier>{dc492ab2-9e4a-45b5-9392-c1ba20d89166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.1 - FISH\handler">
+      <UniqueIdentifier>{0c1fe452-2da8-447b-9296-c99c53b76ff4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.1 - FISH\handler\structure">
+      <UniqueIdentifier>{1c5d62f5-91d2-4f07-9b93-e4315b71036a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base\base\parser">
+      <UniqueIdentifier>{0fa30178-7d97-4ff6-a68b-5caa7dad592a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base\base\tracer">
+      <UniqueIdentifier>{7b3edf60-631a-4cd3-9fad-2107b1515944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.2 - TIGER\handler">
+      <UniqueIdentifier>{5d129bfa-10d5-40bd-9fa0-daea46d232ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.3 - DOLPHIN\handler">
+      <UniqueIdentifier>{774ddd9b-5f24-4c8c-8754-a694433b9c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base\handler\opcode">
+      <UniqueIdentifier>{f79a9199-ed55-4b0d-895f-cdc453f98018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base\handler\structure\keys">
+      <UniqueIdentifier>{b3e3709e-18a4-4c23-87a0-755596b8a48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.0 - base\context\label">
+      <UniqueIdentifier>{5b22150c-8f4a-470d-9055-bde6d71b9bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.2 - TIGER\handler\structure">
+      <UniqueIdentifier>{7bde8825-033b-4164-948d-117c8d896720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="virtual machines\3 - WILD\3.2 - TIGER\context">
+      <UniqueIdentifier>{0792dbe3-9334-4d3e-a45b-9370acb86478}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="oreans_base.cpp">
+      <Filter>oreans\base</Filter>
+    </ClCompile>
+    <ClCompile Include="oreans_entry.cpp">
+      <Filter>oreans\entry</Filter>
+    </ClCompile>
+    <ClCompile Include="segment_manager.cpp">
+      <Filter>segment manager</Filter>
+    </ClCompile>
+    <ClCompile Include="segment_copy.cpp">
+      <Filter>segment manager\segment copy</Filter>
+    </ClCompile>
+    <ClCompile Include="instruction_container_base.cpp">
+      <Filter>instruction\container\base</Filter>
+    </ClCompile>
+    <ClCompile Include="instruction_container_deobfuscator.cpp">
+      <Filter>instruction\container\deobfuscator</Filter>
+    </ClCompile>
+    <ClCompile Include="libudis86\udis86.c">
+      <Filter>instruction\libudis86</Filter>
+    </ClCompile>
+    <ClCompile Include="ud_instruction.cpp">
+      <Filter>instruction\base</Filter>
+    </ClCompile>
+    <ClCompile Include="instruction_emulator.cpp">
+      <Filter>instruction\emulator</Filter>
+    </ClCompile>
+    <ClCompile Include="instruction_container.cpp">
+      <Filter>instruction\container</Filter>
+    </ClCompile>
+    <ClCompile Include="libudis86\syn-intel.c">
+      <Filter>instruction\libudis86\syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="libudis86\syn.c">
+      <Filter>instruction\libudis86\syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="libudis86\syn-att.c">
+      <Filter>instruction\libudis86\syntax</Filter>
+    </ClCompile>
+    <ClCompile Include="libudis86\itab.c">
+      <Filter>instruction\libudis86\table</Filter>
+    </ClCompile>
+    <ClCompile Include="libudis86\decode.c">
+      <Filter>instruction\libudis86\decode</Filter>
+    </ClCompile>
+    <ClCompile Include="dolphin.cpp">
+      <Filter>virtual machines\3 - WILD\3.3 - DOLPHIN</Filter>
+    </ClCompile>
+    <ClCompile Include="tiger.cpp">
+      <Filter>virtual machines\3 - WILD\3.2 - TIGER</Filter>
+    </ClCompile>
+    <ClCompile Include="risc.cpp">
+      <Filter>virtual machines\2 - RISC</Filter>
+    </ClCompile>
+    <ClCompile Include="cisc.cpp">
+      <Filter>virtual machines\1 - CISC</Filter>
+    </ClCompile>
+    <ClCompile Include="puma.cpp">
+      <Filter>virtual machines\4 - WILD Hybrids\4.1 - PUMA</Filter>
+    </ClCompile>
+    <ClCompile Include="shark.cpp">
+      <Filter>virtual machines\4 - WILD Hybrids\4.2 - SHARK</Filter>
+    </ClCompile>
+    <ClCompile Include="eagle.cpp">
+      <Filter>virtual machines\4 - WILD Hybrids\4.3 - EAGLE</Filter>
+    </ClCompile>
+    <ClCompile Include="wild_hybrid_base.cpp">
+      <Filter>virtual machines\4 - WILD Hybrids\4.0 - base</Filter>
+    </ClCompile>
+    <ClCompile Include="wild_handler_tracer.cpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\base\tracer</Filter>
+    </ClCompile>
+    <ClCompile Include="instruction_container_branch_evaluator.cpp">
+      <Filter>instruction\container\branches</Filter>
+    </ClCompile>
+    <ClCompile Include="wild_context_keys.cpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\context\keys</Filter>
+    </ClCompile>
+    <ClCompile Include="wild_handler_flow.cpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\handler\flow</Filter>
+    </ClCompile>
+    <ClCompile Include="wild_context.cpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\context</Filter>
+    </ClCompile>
+    <ClCompile Include="wild_handler.cpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="fish_context.cpp">
+      <Filter>virtual machines\3 - WILD\3.1 - FISH\context</Filter>
+    </ClCompile>
+    <ClCompile Include="fish_handler.cpp">
+      <Filter>virtual machines\3 - WILD\3.1 - FISH\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="fish.cpp">
+      <Filter>virtual machines\3 - WILD\3.1 - FISH</Filter>
+    </ClCompile>
+    <ClCompile Include="wild_handler_parser.cpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\base\parser</Filter>
+    </ClCompile>
+    <ClCompile Include="wild_base.cpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\base</Filter>
+    </ClCompile>
+    <ClCompile Include="tiger_handler.cpp">
+      <Filter>virtual machines\3 - WILD\3.2 - TIGER\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="dolphin_handler.cpp">
+      <Filter>virtual machines\3 - WILD\3.3 - DOLPHIN\handler</Filter>
+    </ClCompile>
+    <ClCompile Include="wild_handler_key.cpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\handler\structure\keys</Filter>
+    </ClCompile>
+    <ClCompile Include="tiger_context.cpp">
+      <Filter>virtual machines\3 - WILD\3.2 - TIGER\context</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="oreans_base.hpp">
+      <Filter>oreans\base</Filter>
+    </ClInclude>
+    <ClInclude Include="oreans_entry.hpp">
+      <Filter>oreans\entry</Filter>
+    </ClInclude>
+    <ClInclude Include="segment_manager.hpp">
+      <Filter>segment manager</Filter>
+    </ClInclude>
+    <ClInclude Include="segment_copy.hpp">
+      <Filter>segment manager\segment copy</Filter>
+    </ClInclude>
+    <ClInclude Include="instruction_container_base.hpp">
+      <Filter>instruction\container\base</Filter>
+    </ClInclude>
+    <ClInclude Include="instruction_container_deobfuscator.hpp">
+      <Filter>instruction\container\deobfuscator</Filter>
+    </ClInclude>
+    <ClInclude Include="udis86.h">
+      <Filter>instruction\libudis86</Filter>
+    </ClInclude>
+    <ClInclude Include="libudis86\udint.h">
+      <Filter>instruction\libudis86\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="ud_instruction.hpp">
+      <Filter>instruction\base</Filter>
+    </ClInclude>
+    <ClInclude Include="instruction_emulator.hpp">
+      <Filter>instruction\emulator</Filter>
+    </ClInclude>
+    <ClInclude Include="libudis86\syn.h">
+      <Filter>instruction\libudis86\syntax</Filter>
+    </ClInclude>
+    <ClInclude Include="libudis86\itab.h">
+      <Filter>instruction\libudis86\table</Filter>
+    </ClInclude>
+    <ClInclude Include="libudis86\decode.h">
+      <Filter>instruction\libudis86\decode</Filter>
+    </ClInclude>
+    <ClInclude Include="libudis86\types.h">
+      <Filter>instruction\libudis86\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="libudis86\extern.h">
+      <Filter>instruction\libudis86\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="instruction_container.hpp">
+      <Filter>instruction\container</Filter>
+    </ClInclude>
+    <ClInclude Include="dolphin.hpp">
+      <Filter>virtual machines\3 - WILD\3.3 - DOLPHIN</Filter>
+    </ClInclude>
+    <ClInclude Include="tiger.hpp">
+      <Filter>virtual machines\3 - WILD\3.2 - TIGER</Filter>
+    </ClInclude>
+    <ClInclude Include="risc.hpp">
+      <Filter>virtual machines\2 - RISC</Filter>
+    </ClInclude>
+    <ClInclude Include="cisc.hpp">
+      <Filter>virtual machines\1 - CISC</Filter>
+    </ClInclude>
+    <ClInclude Include="puma.hpp">
+      <Filter>virtual machines\4 - WILD Hybrids\4.1 - PUMA</Filter>
+    </ClInclude>
+    <ClInclude Include="shark.hpp">
+      <Filter>virtual machines\4 - WILD Hybrids\4.2 - SHARK</Filter>
+    </ClInclude>
+    <ClInclude Include="eagle.hpp">
+      <Filter>virtual machines\4 - WILD Hybrids\4.3 - EAGLE</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_hybrid_base.hpp">
+      <Filter>virtual machines\4 - WILD Hybrids\4.0 - base</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_handler_tracer.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\base\tracer</Filter>
+    </ClInclude>
+    <ClInclude Include="instruction_container_branch_evaluator.hpp">
+      <Filter>instruction\container\branches</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_context_keys.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\context\keys</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_handler_flow.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\handler\flow</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_context.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\context</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_handler_types.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\handler\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_handler.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="fish_context.hpp">
+      <Filter>virtual machines\3 - WILD\3.1 - FISH\context</Filter>
+    </ClInclude>
+    <ClInclude Include="fish_handler_types.hpp">
+      <Filter>virtual machines\3 - WILD\3.1 - FISH\handler\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="fish_handler.hpp">
+      <Filter>virtual machines\3 - WILD\3.1 - FISH\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="fish_handler_mnemonics.hpp">
+      <Filter>virtual machines\3 - WILD\3.1 - FISH\handler\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="fish.hpp">
+      <Filter>virtual machines\3 - WILD\3.1 - FISH</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_handler_parser.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\base\parser</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_base.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\base</Filter>
+    </ClInclude>
+    <ClInclude Include="wild.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base</Filter>
+    </ClInclude>
+    <ClInclude Include="tiger_handler.hpp">
+      <Filter>virtual machines\3 - WILD\3.2 - TIGER\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="dolphin_handler.hpp">
+      <Filter>virtual machines\3 - WILD\3.3 - DOLPHIN\handler</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_opcode_reader.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\handler\opcode</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_handler_mnemonics.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\handler\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_handler_key.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\handler\structure\keys</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_opcode_label_manager.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\context\label</Filter>
+    </ClInclude>
+    <ClInclude Include="wild_opcode_label.hpp">
+      <Filter>virtual machines\3 - WILD\3.0 - base\context\label</Filter>
+    </ClInclude>
+    <ClInclude Include="tiger_handler_types.hpp">
+      <Filter>virtual machines\3 - WILD\3.2 - TIGER\handler\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="tiger_context.hpp">
+      <Filter>virtual machines\3 - WILD\3.2 - TIGER\context</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
