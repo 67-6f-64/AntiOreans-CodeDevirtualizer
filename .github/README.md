@@ -10,7 +10,7 @@ The engine is written as a plugin for IDA 6.8, and only supports early versions 
 
 The source code is provided exclusively for educational purposes, and I take no responsibility for what you do with it.
 
-My Master's Thesis is further included as a [PDF](Master's%20Thesis.pdf), which you may read to better understand the subject and project.
+My Master's Thesis is further included as a [PDF](../Masters%20Thesis.pdf), which you may read to better understand the subject and project.
 
 ## Dependencies
 
