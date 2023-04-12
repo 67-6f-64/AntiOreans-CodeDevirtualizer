@@ -1,6 +1,6 @@
 # AntiOreans-CodeDevirtualizer
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](../LICENSE.md)
-[![Themida Version](https://img.shields.io/badge/Themida-2%2e2%2e5%2e0%20%2f%202%2e2%2e6%2e0%20%2f%202%2e2%2e7%2e0-red.svg)](../LICENSE.md)
+[![Themida Version](https://img.shields.io/badge/Themida-2%2e2%2e5%2e0%20%2f%202%2e2%2e6%2e0%20%2f%202%2e2%2e7%2e0-red.svg)](https://www.oreans.com/ThemidaAllWhatsNew.php)
 [![Themida Machine](https://img.shields.io/badge/Machine-FISH-007bb8.svg)](#)
 
 ## Introduction
